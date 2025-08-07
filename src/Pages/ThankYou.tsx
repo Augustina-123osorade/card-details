@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { useNavigate } from '@tanstack/react-router'
 function ThankYou(){
     const navigate = useNavigate()
@@ -60,12 +60,12 @@ function ThankYou(){
                 </div>
                 <h1 className="text-purple-900 text-2xl font-bold">Thank You!</h1>
                 <p className="font-light">We've added your card details</p>
-                <Button
+                <button
                  onClick={handleContinue}
                   className="text-white font-bold bg-purple-900 px-4 py-2  border border-gray-300 rounded-md w-full"
                 >
                   Continue
-                </Button>
+                </button>
 
 
             </div>

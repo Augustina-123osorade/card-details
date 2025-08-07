@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { useNavigate } from "@tanstack/react-router";
 
 function CardDetails() {
@@ -153,13 +153,13 @@ function CardDetails() {
                 )}
               </div>
               <div className="w-90">
-                <Button
+                <button
                   disabled={isSubmitting}
                   type="submit"
                   className="text-white font-bold bg-purple-900 px-4 py-2  border border-gray-300 rounded-md w-full"
                 >
                   Confirm
-                </Button>
+                </button>
               </div>
             </div>
           </form>
